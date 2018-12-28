@@ -6,9 +6,10 @@ namespace EventDelegate
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            ExecutionClass obj = new ExecutionClass();
-            obj. PopulateString();
-           
+            //ExecutionClass obj = new ExecutionClass();
+            //obj. PopulateString();
+            ValueReferenceTypes valuetype = new ValueReferenceTypes();
+            valuetype.execute();
         }
 
         private static string Eve_ActionCompletedEvent(string text1, string text2)
