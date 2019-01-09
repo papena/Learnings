@@ -5,6 +5,8 @@ namespace EventDelegate
     {
         static void Main(string[] args)
         {
+            ListCheck test = new ListCheck();
+            test.CheckingCollection();
             //Console.WriteLine("Hello World!");
             //ExecutionClass obj = new ExecutionClass();
             //obj. PopulateString();

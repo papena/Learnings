@@ -4,7 +4,7 @@ namespace EventDelegate
 {
     public class DelegateTutorial
     {
-        public delegate string ReturnsString(string text1, string text2);
+        public delegate void ReturnsString(string text1, string text2);
     }
     public class ExecutionClass
     {
@@ -17,14 +17,14 @@ namespace EventDelegate
             ///
 
             EventClass eve = new EventClass();
-            eve.ActionCompletedEvent += Eve_ActionCompletedEvent; 
-            eve.ExecuteAction();
+            //eve.ActionCompletedEvent += Eve_ActionCompletedEvent; 
+            //eve.ExecuteAction();
         }
 
-        private string Eve_ActionCompletedEvent(string text1, string text2)
-        {
-            throw new NotImplementedException();
-        }
+        //private string Eve_ActionCompletedEvent(string text1, string text2)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public string PrintLocal(string message1, string message2)
         {
