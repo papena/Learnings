@@ -10,6 +10,7 @@ namespace BridgePattern
             Logger log = new Log();
             log.logger = new SerilogLogger();
             log.LogInfo("This is Serilog logging");
+            log.logger.LogError("test");
 
             log.logger = new WebserviceLogger();
             log.LogInfo("This is webservice logging");

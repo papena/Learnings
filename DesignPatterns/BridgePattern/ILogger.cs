@@ -6,6 +6,7 @@ namespace BridgePattern
     public interface ILogger
     {
         void LogInfo(string message);
+        void LogError(string message);
     }
     //referecen to the bridge component
     public abstract class Logger
@@ -24,6 +25,11 @@ namespace BridgePattern
     //serilog logging
     public class SerilogLogger : ILogger
     {
+        public void LogError(string message)
+        {
+            throw new NotImplementedException();
+        }
+
         public void LogInfo(string message)
         {
             Console.WriteLine(message);
@@ -33,6 +39,11 @@ namespace BridgePattern
     //serilog logging
     public class WebserviceLogger : ILogger
     {
+        public void LogError(string message)
+        {
+            throw new NotImplementedException();
+        }
+
         public void LogInfo(string message)
         {
             Console.WriteLine(message);
