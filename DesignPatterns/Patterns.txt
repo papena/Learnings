@@ -1,0 +1,20 @@
+Creational:
+-----------------
+Abstract Factory----created objects of families of the classes
+Factory method--hides the complexity of creation of the objects and created the objects of the derived classes
+Singleton--created a single instance
+
+Structural
+-------------
+Adapter--makes two incompatible  classes  compatible
+Bridge--Decouples abstraction from the implementation so that both can vary independently.
+or 
+Bridge pattern seperates abstraction and implememtation classes so that both can be modified together with out impact.
+Facade---provied unifed interface for a set of subsystems
+
+Behavioural
+------------------
+Chain of Responsibility---lets you to pass a request to chain of receivers which eiher one can handle and process the request.
+Iterator---one should access the object by looping through the collection by hiding the manipulative methods.
+Observer--is also called as pub-sub model where observer listens to the subject. any change in the subject should be  updated to the observers.
+
