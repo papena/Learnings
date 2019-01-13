@@ -48,9 +48,22 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D590CEA8-280D-48C9-A83C-8A105EDE1D65}"
 	ProjectSection(SolutionItems) = preProject
 		Patterns.txt = Patterns.txt
+		sql.txt = sql.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatttern", "AdapterPatttern\AdapterPatttern.csproj", "{B38CD55A-F490-4E6E-8D2E-D4F22038250C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{7C970DB3-5E86-491B-AF09-F79B29888B55}"
+	ProjectSection(SolutionItems) = preProject
+		Containerized-Docker-Application-Lifecycle-with-Microsoft-Platform-and-Tools-(eBook)_v1.1 (1).pdf = Containerized-Docker-Application-Lifecycle-with-Microsoft-Platform-and-Tools-(eBook)_v1.1 (1).pdf
+		..\..\..\..\Downloads\Containerized-Docker-Application-Lifecycle-with-Microsoft-Platform-and-Tools-(eBook)_v1.1.pdf = ..\..\..\..\Downloads\Containerized-Docker-Application-Lifecycle-with-Microsoft-Platform-and-Tools-(eBook)_v1.1.pdf
+		..\..\..\..\Downloads\dotnetadvertising.pdf = ..\..\..\..\Downloads\dotnetadvertising.pdf
+		dotnetadvertising.pdf = dotnetadvertising.pdf
+		..\..\..\..\Downloads\Microservices_Designing_Deploying (1).pdf = ..\..\..\..\Downloads\Microservices_Designing_Deploying (1).pdf
+		Microservices_Designing_Deploying (1).pdf = Microservices_Designing_Deploying (1).pdf
+		..\..\..\..\Downloads\NET-Microservices-Architecture-for-Containerized-NET-Applications-(Microsoft-eBook).pdf = ..\..\..\..\Downloads\NET-Microservices-Architecture-for-Containerized-NET-Applications-(Microsoft-eBook).pdf
+		NET-Microservices-Architecture-for-Containerized-NET-Applications-(Microsoft-eBook).pdf = NET-Microservices-Architecture-for-Containerized-NET-Applications-(Microsoft-eBook).pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -162,6 +175,7 @@ Global
 		{4FC6DC1C-C516-4D11-A847-5BD890309059} = {2A57A92B-05AE-4F5F-B68A-562E332B9708}
 		{246257E6-506F-4E46-916F-B6A3869AAFB4} = {2A57A92B-05AE-4F5F-B68A-562E332B9708}
 		{94710296-265D-4D97-BAFE-D8A1CDC4F6A1} = {2A57A92B-05AE-4F5F-B68A-562E332B9708}
+		{7C970DB3-5E86-491B-AF09-F79B29888B55} = {D590CEA8-280D-48C9-A83C-8A105EDE1D65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {834EAFDB-7CA8-404E-86EC-FDD21E50AD92}
